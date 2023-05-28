@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/user_add"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/content_item">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/content_item"
+            android:src="@drawable/user_add"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="회원 추가"
+            android:textSize="@dimen/text_size_large"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/image1"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <SearchView
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textSize="@dimen/text_size_large"
+            app:iconifiedByDefault="false"
+            app:queryHint="회원 검색" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/user_list2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/content_item">
+
+        <Button
+            android:id="@+id/btn_user_list1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00ff0000"
+            android:contentDescription="User List Button1"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/user_img2"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/content_item"
+            android:src="@drawable/user_img"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="김지훈"
+            android:textSize="@dimen/text_size_large"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/user_img2"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/user_list3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/content_item">
+
+        <ImageView
+            android:id="@+id/user_img3"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/content_item"
+            android:src="@drawable/user_img"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="윤재욱"
+            android:textSize="@dimen/text_size_large"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/user_img3"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/user_list4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/content_item">
+
+        <ImageView
+            android:id="@+id/user_img4"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/content_item"
+            android:src="@drawable/user_img"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="김소영"
+            android:textSize="@dimen/text_size_large"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/user_img4"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/user_list5"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/content_item">
+
+        <ImageView
+            android:id="@+id/user_img5"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/content_item"
+            android:src="@drawable/user_img"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="김장현"
+            android:textSize="@dimen/text_size_large"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/user_img5"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/user_list6"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/content_item">
+
+        <ImageView
+            android:id="@+id/user_img6"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/content_item"
+            android:src="@drawable/user_img"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이윤호"
+            android:textSize="@dimen/text_size_large"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/user_img6"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/user_list7"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/content_item">
+
+        <ImageView
+            android:id="@+id/user_img7"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/content_item"
+            android:src="@drawable/user_img"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="서성준"
+            android:textSize="@dimen/text_size_large"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/user_img7"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/user_list8"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/content_item">
+
+        <ImageView
+            android:id="@+id/user_img8"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/content_item"
+            android:src="@drawable/user_img"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="김영진"
+            android:textSize="@dimen/text_size_large"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/user_img8"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
