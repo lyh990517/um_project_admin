@@ -59,7 +59,7 @@
 
 
         <TextView
-            android:id="@+id/name"
+            android:id="@+id/name_area"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="272dp"
@@ -74,11 +74,12 @@
             android:layout_width="1dp"
             android:layout_height="match_parent"
             android:background="#000000"
-            app:layout_constraintStart_toEndOf="@id/name"
+            app:layout_constraintStart_toEndOf="@id/name_area"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" />
 
         <TextView
+            android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="김지훈"
@@ -86,7 +87,7 @@
             android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/name"
+            app:layout_constraintStart_toEndOf="@+id/name_area"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -98,7 +99,7 @@
 
 
         <TextView
-            android:id="@+id/age"
+            android:id="@+id/age_area"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="272dp"
@@ -113,11 +114,12 @@
             android:layout_width="1dp"
             android:layout_height="match_parent"
             android:background="#000000"
-            app:layout_constraintStart_toEndOf="@id/age"
+            app:layout_constraintStart_toEndOf="@id/age_area"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" />
 
         <TextView
+            android:id="@+id/age"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="28"
@@ -125,7 +127,7 @@
             android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/age"
+            app:layout_constraintStart_toEndOf="@+id/age_area"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -137,7 +139,7 @@
 
 
         <TextView
-            android:id="@+id/address"
+            android:id="@+id/address_area"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="272dp"
@@ -152,11 +154,12 @@
             android:layout_width="1dp"
             android:layout_height="match_parent"
             android:background="#000000"
-            app:layout_constraintStart_toEndOf="@id/address"
+            app:layout_constraintStart_toEndOf="@id/address_area"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" />
 
         <TextView
+            android:id="@+id/address"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="경기도 의정부시"
@@ -164,7 +167,7 @@
             android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/address"
+            app:layout_constraintStart_toEndOf="@+id/address_area"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -176,7 +179,7 @@
 
 
         <TextView
-            android:id="@+id/rating"
+            android:id="@+id/rating_area"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="272dp"
@@ -191,11 +194,12 @@
             android:layout_width="1dp"
             android:layout_height="match_parent"
             android:background="#000000"
-            app:layout_constraintStart_toEndOf="@id/rating"
+            app:layout_constraintStart_toEndOf="@id/rating_area"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" />
 
         <TextView
+            android:id="@+id/rating"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="VVIP"
@@ -203,7 +207,7 @@
             android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/rating"
+            app:layout_constraintStart_toEndOf="@+id/rating_area"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -215,7 +219,7 @@
 
 
         <TextView
-            android:id="@+id/warning"
+            android:id="@+id/warning_area"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="272dp"
@@ -230,11 +234,12 @@
             android:layout_width="1dp"
             android:layout_height="match_parent"
             android:background="#000000"
-            app:layout_constraintStart_toEndOf="@id/warning"
+            app:layout_constraintStart_toEndOf="@id/warning_area"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" />
 
         <TextView
+            android:id="@+id/warning"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="3 회"
@@ -242,7 +247,7 @@
             android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/warning"
+            app:layout_constraintStart_toEndOf="@+id/warning_area"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>

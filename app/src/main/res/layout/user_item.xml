@@ -3,49 +3,43 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center_vertical"
-    android:orientation="vertical"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:background="@drawable/content_item"
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/user_add"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:background="@drawable/content_item">
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_user_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00ff0000"
+            android:contentDescription="User List Button"
+            app:layout_constraintEnd_toEndOf="parent" />
 
         <ImageView
-            android:id="@+id/image1"
+            android:id="@+id/user_img"
             android:layout_width="120dp"
             android:layout_height="match_parent"
             android:background="@drawable/content_item"
-            android:src="@drawable/user_add"
+            android:src="@drawable/user_img"
             app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
+            android:id="@+id/text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="회원 추가"
+            android:text="rrrr"
             android:textSize="@dimen/text_size_large"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/image1"
+            app:layout_constraintStart_toEndOf="@+id/user_img"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-        <SearchView
-            android:id="@+id/search_view"
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:textSize="@dimen/text_size_large"
-            app:iconifiedByDefault="false"
-            app:queryHint="회원 검색" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:listitem="@layout/user_item" />
-
-
 </LinearLayout>
