@@ -46,6 +46,14 @@
         android:layout_height="70dp"
         android:background="@drawable/content_item">
 
+        <Button
+            android:id="@+id/btn_rental_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00ff0000"
+            android:contentDescription="Rental Button"
+            app:layout_constraintEnd_toEndOf="parent" />
+
         <ImageView
             android:id="@+id/image2"
             android:layout_width="120dp"
@@ -69,6 +77,14 @@
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:background="@drawable/content_item">
+
+        <Button
+            android:id="@+id/btn_return_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00ff0000"
+            android:contentDescription="Return Button"
+            app:layout_constraintEnd_toEndOf="parent" />
 
         <ImageView
             android:id="@+id/image3"
