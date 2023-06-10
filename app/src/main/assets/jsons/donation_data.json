@@ -1,0 +1,77 @@
+{ "donations" : [
+    {
+        "name" : "김희철",
+        "age" : "25",
+        "adress" : "서울시 광진구",
+        "grade" : "vip",
+        "umbrella_num" : "us-02"
+    },
+    {
+        "name" : "김나나",
+        "age" : "25",
+        "adress" : "서울",
+        "grade" : "vip",
+        "umbrella_num" : "us-01"
+    },
+    {
+        "name" : "이지혜",
+        "age" : "25",
+        "adress" : "서울",
+        "grade" : "vip",
+        "umbrella_num" : "us-03"
+    },
+    {
+        "name" : "김상철",
+        "age" : "25",
+        "adress" : "서울",
+        "grade" : "vip",
+        "umbrella_num" : "us-04"
+    },
+    {
+        "name" : "박상우",
+        "age" : "25",
+        "adress" : "서울",
+        "grade" : "vip",
+        "umbrella_num" : "us-05"
+    },
+    {
+        "name" : "최상민",
+        "age" : "25",
+        "adress" : "서울",
+        "grade" : "vip",
+        "umbrella_num" : "us-06"
+    },
+    {
+        "name" : "유은구",
+        "age" : "25",
+        "adress" : "서울",
+        "grade" : "vip",
+        "umbrella_num" : "us-07"
+    },
+    {
+        "name" : "이사랑",
+        "age" : "25",
+        "adress" : "서울",
+        "grade" : "vip",
+        "umbrella_num" : "us-08"
+    },
+    {
+        "name" : "강지희",
+        "age" : "25",
+        "adress" : "서울",
+        "grade" : "vip",
+        "umbrella_num" : "us-09"
+    },
+    {
+        "name" : "이하늘",
+        "age" : "25",
+        "adress" : "서울",
+        "grade" : "vip",
+        "umbrella_num" : "us-10"
+    }
+    ]
+}
+
+
+
+
