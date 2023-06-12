@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:background="@drawable/content_item"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_rent_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이름 : "
+            android:textSize="@dimen/text_size_medium"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_rent_umb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="대여 우산 : "
+            android:textSize="@dimen/text_size_medium"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_rent_name" />
+
+        <TextView
+            android:id="@+id/text_rent_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="대여 번호 : "
+            android:textSize="@dimen/text_size_medium"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_rent_umb" />
+
+        <TextView
+            android:id="@+id/rent_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rent_name"
+            android:textSize="@dimen/text_size_medium"
+            app:layout_constraintStart_toEndOf="@id/text_rent_name"
+            app:layout_constraintTop_toTopOf="@id/text_rent_name" />
+
+        <TextView
+            android:id="@+id/rent_umb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rent_umb"
+            android:textSize="@dimen/text_size_medium"
+            app:layout_constraintStart_toEndOf="@id/text_rent_umb"
+            app:layout_constraintTop_toTopOf="@id/text_rent_umb" />
+
+        <TextView
+            android:id="@+id/rent_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rent_num"
+            android:textSize="@dimen/text_size_medium"
+            app:layout_constraintStart_toEndOf="@id/text_rent_num"
+            app:layout_constraintTop_toTopOf="@id/text_rent_num" />
+
+        <TextView
+            android:id="@+id/text_rent_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text_rent_state"
+            android:textSize="@dimen/text_size_medium"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/text_rent_name" />
+
+        <TextView
+            android:id="@+id/text_rent_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text_rent_date"
+            android:textSize="@dimen/text_size_medium"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/text_rent_umb" />
+
+        <TextView
+            android:id="@+id/text_rent_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text_rent_time"
+            android:textSize="@dimen/text_size_medium"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/text_rent_num" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
